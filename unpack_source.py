@@ -1,7 +1,7 @@
 import hashlib,zipfile
 from pathlib import Path
 archive=Path('mediateka-ipad740-source.zip')
-assert hashlib.sha256(archive.read_bytes()).hexdigest()=='ce58a3a2d8cf6be776be94a9e9d41513efc47c67ce74259626a5233f7a246264', 'Unexpected source archive'
+assert hashlib.sha256(archive.read_bytes()).hexdigest()=='36c6bca33821a48839c7710ddb783ef40bc7c331475b8946ea83762f138fa37b', 'Unexpected source archive'
 root=Path.cwd().resolve()
 with zipfile.ZipFile(archive) as z:
     for entry in z.infolist():
