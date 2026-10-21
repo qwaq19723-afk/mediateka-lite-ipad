@@ -1,7 +1,7 @@
 import hashlib,zipfile
 from pathlib import Path
-archive=Path('mediateka-ipad749-source.zip')
-assert hashlib.sha256(archive.read_bytes()).hexdigest()=='3d0860024652f25f701441905acf6a29fa632b63c62cbe7a7d748b8388624d92'
+archive=Path('mediateka-ipad757-source.zip')
+assert hashlib.sha256(archive.read_bytes()).hexdigest()=='8c1d8f092a45405355fcdc793a3568f833b0ee42b86367cf44f1887396895118'
 root=Path.cwd().resolve()
 with zipfile.ZipFile(archive) as z:
     for entry in z.infolist():
