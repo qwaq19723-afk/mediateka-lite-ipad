@@ -8,6 +8,6 @@ test: off
 artifacts:
   - path: MediatekaLite/build/MediatekaLite-0.1-ios10-unsigned.ipa
     name: MediatekaLite-ios10-UNSIGNED
-  - path: MediatekaLite/build/MediatekaLite-0.1.5-ios10-AppSync-build7.ipa
-    name: MediatekaLite-ios10-AppSync-build7
+  - path: MediatekaLite/build/MediatekaLite-0.1.6-ios10-AppSync-build8.ipa
+    name: MediatekaLite-ios10-AppSync-build8
 deploy: off
